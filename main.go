@@ -48,7 +48,7 @@ func main() {
 	flaggy.String(&tagTemplate, "t", "tagTemplate", "Define how Evernote tags are formatted")
 	flaggy.String(&outputOverride, "o", "outputDir", "Override the directory where markdown files will be created")
 
-	flaggy.Bool(&folders, "", "folders", "Put every note in a separate folder")
+	flaggy.Bool(&folders, "", "folders2", "Put every note in a separate folder")
 	flaggy.Bool(&noHighlights, "", "noHighlights", "Disable converting Evernote highlights to inline HTML tags")
 	flaggy.Bool(&escapeSpecialChars, "", "escape-special-chars", "Escape special characters to ensure correct rendering of the converted files")
 	flaggy.Bool(&resetTimestamps, "", "resetTimestamps", "Create files ignoring timestamps in the note attributes")
