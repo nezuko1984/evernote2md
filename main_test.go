@@ -63,7 +63,7 @@ func Test_matchInput_file(t *testing.T) {
 
 func Test_matchInput_dir(t *testing.T) {
 	tmpDir := tDir(t)
-	wDir := wantDir(t, tmpDir, "testDir")
+	wDir := wantDir(t, tmpDir, "testDir2")
 	want := wantFile(t, wDir, "in_dir.enex")
 
 	if got, _ := matchInput("testDir"); !matchPath(got, want) {
