@@ -38,7 +38,7 @@ func init() {
 
 func main() {
 	var input, outputOverride string
-	var outputDir = filepath.FromSlash("./notes")
+	var outputDir = filepath.FromSlash("./notess")
 	var tagTemplate = internal.DefaultTagTemplate
 	var folders, noHighlights, escapeSpecialChars, resetTimestamps, addFrontMatter, debug bool
 
