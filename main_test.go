@@ -14,7 +14,7 @@ const sampleFile = `
 <!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export3.dtd">
 <en-export>
 <note>
-  <title>Test</title>
+  <title>Test2222</title>
   <content>
 	<![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note><div><br /></div></en-note>]]>
