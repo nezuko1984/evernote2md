@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"testing"
+	"testing_"
 
 	"github.com/wormi4ok/evernote2md/internal"
 )
