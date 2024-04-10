@@ -16,7 +16,7 @@ const sampleFile = `
 <note>
   <title>Test2222</title>
   <content>
-	<![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd"><en-note><div><br /></div></en-note>]]>
   </content>
 </note>
