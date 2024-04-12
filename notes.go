@@ -16,8 +16,8 @@ type noteFilesDir struct {
 	path string
 
 	// flags modifying the logic for saving notes
-	flagFolders    bool
-	flagTimestamps bool
+	flagFolders2    bool
+	flagTimestamps2 bool
 
 	// A map to keep track of what notes are already created
 	names map[string]int
